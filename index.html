@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - Азамат Гайфуллни</title>
+    <style>
+        body {
+            font-family: Time New Rowland, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            display: flex;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .left-column {
+            width: 30%;
+            background-color: #8f5f5b;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .right-column {
+            width: 70%;
+            background-color: #FBF2F2;
+            padding: 40px;
+            color: #333;
+        }
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;  
+            height: auto;
+        }
+        h1 {
+            font-size: 32px;
+            text-align: center;
+            margin: 0;
+        }
+        h2 {
+            font-size: 24px;
+            color: #605B8F;
+            margin-bottom: 10px;
+        }
+        h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 18px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .skills, .contacts, .education {
+            margin-bottom: 20px;
+        }
+        .right-column h1, .right-column h2 {
+            text-align: center;
+        }
+        .block {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Левая колонка. -->
+        <div class="left-column">
+            <img src="./jpg/my photo.jpg" alt="Азамат Гайфуллин">
+            <div class="contacts">
+                <h2 style="color: white;">Контакты</h2>
+                <ul align="left">
+                    <li>Телефон: +7 (986)-930-72-28 </li>
+                    <li>Email: <a href="mailto:agaifullin157@gmail.com" style="color: white;">agaifullin157@gmail.com</a></li>
+                    <li>GitHub: <a href="https://github.com/lyalkid/" target="_blank" style="color: white;">github.com/lyalkid</a></li>
+                    <li>Telegram: <a href="https://t.me/lyalkid" target="_blank" style="color: white;">@lyalkid</a></li>
+                    <li>Казань / не готов к переезду</li>
+                </ul>
+            </div>
+
+            <div class="skills">
+                <h2 style="color: white;">Навыки</h2>
+                    <li align="left">Java</li>
+                    <li align="left">Spring Framework</li>
+                    <li align="left">Hibernate</li>
+                    <li align="left">SQL (PostgreSQL)</li>
+                    <li align="left">Git</li>
+                    <li align="left">Docker</li>
+            </div>
+
+            <div class="education">
+                <h2 style="color: white;">Образование</h2>
+                <ul align="left">
+                    <li><strong>Школа 21</strong> — образовательный проект от Сбер для разработчиков (04.2024 - наст. время) <br>
+                        <a href="https://21-school.ru/" target="_blank" style="color: white;">Ссылка</a>
+                    </li>
+                    <li><strong>КФУ</strong> — специальность Программная инженерия (2022 - наст. время) <br>
+                        <a href="https://kpfu.ru/itis" target="_blank" style="color: white;">Ссылка</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Правая колонка -->
+        <div class="right-column">
+            <h1 style="color: black;">Азамат Гайфуллин</h1>
+            <h2 style="color: black;">Java Developer</h2>
+
+            <div class="block">
+                <h2 style="color: black;">О себе</h2>
+                <p>Студент 3 курса КФУ ИТИС по направлению Программная инженерия. С апреля 2024 года обучаюсь в Школе программирования 21 от Сбер. В настоящее время активно изучаю Java и параллельно работаю над различными учебными проектами. Люблю постоянно развиваться и узнавать новое. Стремлюсь развить навыки в области Java-разработки, работая стажером в динамичной компании,
+                    чтобы получить практический опыт с Java, Spring Framework и разработкой веб-приложений.
+                    </p>
+            </div>
+
+            <div class="block">
+                <h2 style="color: black;">PET ПРОЕКТЫ</h2>
+                <ul>
+                    <li><strong> FlashCards | Java, Spring Framework, PostgreSQL</strong><br>
+                      <hr>
+                      <p>Веб-приложение для управления флэш карточками. Разработал на Java с использованием Spring Boot и PostgreSQL. Есть функции регистрации пользователей, добавление, редактирование, удаление карточек.
+                    </p>
+                        <a href="https://github.com/lyalkid/flashcards/" target="_blank">Ссылка на проект</a>
+                    </li>
+                    <li><strong>Tetris | C, ncurses.h</strong><br>
+                      <hr>
+                      <p>Создал приложение на языке С с графическим интерфейсом. Цель данного проекта - научиться
+                        разделять backend и frontend. Использовал стандарт СИ-11, библиотеку ncurses.h для графического
+                        интерфейса, библиотеку check.h для тестового покрытия.
+                         </p>
+                        <a href="https://github.com/lyalkid/s21_tetris/tree/develop" target="_blank">Ссылка на проект</a>
+                    </li>
+                    <li><strong>Game of life | C</strong><br>
+                      <hr>
+                        <p>Игра была реализована в ходе прохождения испытательного интенсива на основное обучение в
+                            Школу 21 от Сбера. Игра реализует клеточный автомат, придуманный английским математиком
+                            Джоном Конвеем в 1970 году</p>
+                        <a href="https://github.com/lyalkid/game-of-life" target="_blank">Ссылка на проект</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="block">
+                <h2 style="color: black;">ОПЫТ РАБОТЫ</h2>
+                <div>
+                  <span style="float: left;"><strong>КФУ ИТИС, учебная практика</strong></span>
+                  <span style="float: right;">(05.2024 - 08.2024)</span>
+                </div>
+                <br>
+                <p>Учился разрабатывать приложения на Java с использованием веб фреймворков. Реализовывал CRUD функционал, отравлял запросы в базу данных с помощью JDBC и Hibernate</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p align="center">&copy; 2024 Азамат Гайфуллин</p>
+    </div>
+</body>
+</html>
